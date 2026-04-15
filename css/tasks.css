@@ -1,0 +1,21 @@
+@import url('style.css');
+
+#taskList{
+    margin-top:20px;
+}
+
+#taskList li{
+    background:white;
+    padding:12px;
+    border-radius:15px;
+    margin-top:10px;
+    box-shadow:0 2px 5px rgba(0,0,0,0.1);
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.completed{
+    text-decoration:line-through;
+    opacity:0.6;
+}
